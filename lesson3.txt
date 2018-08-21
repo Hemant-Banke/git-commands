@@ -4,3 +4,31 @@ git init <WD>         : Initializes a directory as repository
 git status <WD>       : Views status of repository since last commit
 git add file_name     : Adds the file to staging area
 git reset file_name   : Unstage a file
+
+______________________________________________________________________________________________
+
+Git diff
+
+git diff                : diff b/w working directory and staging area
+git diff --staged       : diff b/w staging area and latest commit
+git diff id1 id2        : diff b/w two commit id
+
+______________________________________________________________________________________________
+
+Git Branches
+
+git branch              : lists all branches (* current_branch)
+git branch branch_name  : creates branch "branch_name" from current state
+git checkout branch_name: checkout latest commit of branch_name
+git branch -d brancch_name : deletes branch
+
+git checkout -b branch_name : create branch branch_name and check out the branch
+
+git log --graph --oneline <list of branch names> : shows graph off commit
+git show commit_id      : diff commit to its parent
+
+______________________________________________________________________________________________
+
+Merge
+
+git merge <branch list>   : merge all listed branches to current branch
