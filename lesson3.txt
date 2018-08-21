@@ -1,0 +1,6 @@
+Git Initialize and Status :
+
+git init <WD>         : Initializes a directory as repository
+git status <WD>       : Views status of repository since last commit
+git add file_name     : Adds the file to staging area
+git reset file_name   : Unstage a file
