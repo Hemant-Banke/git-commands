@@ -1,0 +1,39 @@
+Common Commands :
+
+pwd	      : current dir
+cd /c/path/
+cd /g	    : go to G
+ls        : list
+ls -a     : list all (including hidden)
+
+CMD :
+cd	: return current dir
+cd\	: go to root
+cd..	: go one level up
+cd C:\path
+cd G:	: to go to G
+dir	: list content of current directory
+
+______________________________________________________________________________________________
+
+Compare two Files:
+
+diff -u old_file new_file
+
+CMD :
+FC old_file new_file
+
+______________________________________________________________________________________________
+
+Git Commits History :
+
+git log repository_path :		views commit history with id, author, date, message
+git diff commit_id_1 commit_id_2 : 	views difference between the two commits
+
+git log --stat repository_path : 	viws stats across multiple files in commit
+
+______________________________________________________________________________________________
+
+CheckOut previous Commit :
+
+git checkout commit_id : 	detaches HEAD and goes to that commit
