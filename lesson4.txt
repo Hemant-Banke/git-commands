@@ -14,6 +14,11 @@ git push <remote name : origin> <branch name>   : pushes branch to remote reposi
 
 ______________________________________________________________________________________________
 
-Pull :
+Pull and Fetch :
 
 git pull <remote name : origin> <branch name>   : pulls branch to local repository adding changes
+
+git fetch <remote name : origin>        : fetches all changed branches from remote and adds them to a new branch from previous
+                                          origin/master, tip of this branch becomes origin/master
+
+git pull = git fetch + ( git merge origin/master master )
