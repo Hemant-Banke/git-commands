@@ -1,0 +1,13 @@
+Remote :
+
+git remote        : list remotes
+git remote -v
+
+Adding remote :
+git remote add <remote name : origin> <url>
+
+______________________________________________________________________________________________
+
+Push :
+
+git push <remote name : origin> <branch name>   : pushes branch to remote repository adding changes
