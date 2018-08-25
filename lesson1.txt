@@ -25,7 +25,11 @@ FC old_file new_file
 
 ______________________________________________________________________________________________
 
-Git Commits History :
+Git Commits :
+
+git commit              : commits all files in staging area
+git commit -m "commit-message"
+git commit -a           : commits all changed files in working directory since last commmit
 
 git log repository_path :		views commit history with id, author, date, message
 git diff commit_id_1 commit_id_2 : 	views difference between the two commits
