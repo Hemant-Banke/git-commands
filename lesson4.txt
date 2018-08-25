@@ -11,3 +11,9 @@ ________________________________________________________________________________
 Push :
 
 git push <remote name : origin> <branch name>   : pushes branch to remote repository adding changes
+
+______________________________________________________________________________________________
+
+Pull :
+
+git pull <remote name : origin> <branch name>   : pulls branch to local repository adding changes
